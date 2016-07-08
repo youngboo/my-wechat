@@ -1,0 +1,8 @@
+{
+  "name": "my-wechat",
+  "version": "0.0.1",
+  "dependencies": {
+    "koa": "^1.2.0",
+    "sha1": "^1.1.1"
+  }
+}
