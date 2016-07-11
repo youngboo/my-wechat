@@ -8,6 +8,6 @@ var app = new Koa();
 app.use(function *(next){
     var query = this.query.echo;
     this.body = query;
-    //next();
+    yield (next);
 });
 app.listen(1234);
